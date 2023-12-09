@@ -9,9 +9,9 @@ function Navbar () {
                     <img src="https://seeklogo.com/images/S/Sony_Alpha-logo-3BA7DFA79B-seeklogo.com.png" className="w-14 h-14" alt=""/>
                     <div className="font-semibold text-5xl" to='/'>Alpha</div>
                 </Link>
-                <div className="space-x-64 text-xl mr-16">
+                <div className="space-x-96 text-2xl mr-16">
                     <Link className="font-semibold hover:border-b-4 border-white" to='/'>Yeild</Link>
-                    <Link className="font-semibold hover:border-b-4 border-white" to='/transfer'>Transfer</Link>
+                    {/* <Link className="font-semibold hover:border-b-4 border-white" to='/transfer'>Transfer</Link> */}
                     {/* <Link className="font-semibold hover:border-b-4 border-white" to='/transactions'>Transactions</Link> */}
                     <Link className="font-semibold hover:border-b-4 border-white" to='/faucet'>Faucet</Link>
                 </div>

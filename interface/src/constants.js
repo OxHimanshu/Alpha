@@ -22,15 +22,15 @@ export const activeStrategies = {
                 },
                 {
                     months: 6,
-                    ALPHA_CORE_CONTRACT: "",
+                    ALPHA_CORE_CONTRACT: "0x9852a21D5549F9885Fa353E2439e138583bfC3D3",
                 },
                 {
                     months: 9,
-                    ALPHA_CORE_CONTRACT: "",
+                    ALPHA_CORE_CONTRACT: "0x021B72dF1349fe1cCF0a32d29e3aD51d7E0342f2",
                 },
                 {
                     months: 12,
-                    ALPHA_CORE_CONTRACT: "",
+                    ALPHA_CORE_CONTRACT: "0xE74d1acB7Bf8d15Ee3cA201cAED531f1c898FA71",
                 }
             ]
         },
