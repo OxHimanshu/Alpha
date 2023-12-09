@@ -50,7 +50,7 @@ function Balances () {
                 <div className="h-content">
                     <div className="flex flex-col items-between text-sm m-4 my-4 space-y-6 text-black">
                         <div className="rounded-lg border w-full bg-white text-xl px-2 py-3">Alpha Token Balance: {alphaTokenBalance} </div>
-                        <div className="rounded-lg border w-full bg-white text-xl px-2 py-3">Portal Energy Balance: {peBalance}</div>
+                        <div className="rounded-lg border w-full bg-white text-xl px-2 py-3">Portal Energy Token Balance: {peBalance}</div>
                         <div className="rounded-lg border w-full bg-white text-xl px-2 py-3">Wallet USDC Balance: {usdcBalance}</div>
                         <div className="rounded-lg border w-full bg-white text-xl px-2 py-3">Rewards Token Balance: {rewardsBalance}</div>
                         {/* <div className="rounded-lg border w-full h-66 bg-white py-2">

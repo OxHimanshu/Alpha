@@ -298,9 +298,9 @@ function Yield () {
                                     </div>
                             </div>
                         </div>
-                        <div className='h-[700px] w-[640px]'>
+                        <div className='h-[710px] w-[640px]'>
                             <div className='flex items-center justify-center h-full'>
-                                <div className='flex flex-col items-center justify-center rounded-lg bg-orange-600 w-[520px] h-[580px] space-y-8'>
+                                <div className='flex flex-col items-center justify-center rounded-lg bg-orange-600 w-[520px] h-[600px] space-y-8'>
                                     <div className='text-4xl mb-8 font-semibold'>Buy/Sell Portal Energy</div>
                                     <div className='space-y-2'>
                                         <div onClick={() => {
@@ -314,6 +314,7 @@ function Yield () {
                                                 setTokenFrom("Alpha Token") 
                                             }
                                         }} className='cursor-pointer rounded-lg w-[400px] bg-black py-3 px-4 text-xl'>{tokenFrom}</div>
+                                        { tokenFrom === "Portal Energy" ? <div className='text-end text-sm'>Balance: {userPortalEnergy}</div> : ''}
                                         <input onChange={(e) => estimateTokenConversion(e.target.value)} type="number" placeholder='Enter amount' className='rounded-lg pl-2 text-black w-[400px] py-3 px-4 text-xl'/>
                                     </div>
 
@@ -321,6 +322,7 @@ function Yield () {
                                     
                                     <div className='space-y-2'>
                                         <div className='rounded-lg w-[400px] bg-black py-3 px-4 text-xl'>{tokenTo}</div>
+                                        { tokenFrom !== "Portal Energy" ? <div className='text-end text-sm'>Balance: {userPortalEnergy}</div> : ''}
                                         <input disabled type="number" value={`${tokenToValue}`} className='rounded-lg pl-2 text-black w-[400px] py-3 px-4 text-xl'/>
                                     </div>
                                     <button onClick={() => convertToken()} className='rounded-lg bg-black py-4 px-8 text-2xl'> Convert </button>
